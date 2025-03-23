@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+    "name": "Simple Ad Blocker",
+    "version": "1.0",
+    "description": "Blocks annoying ads!",
+    "permissions": [
+      "webRequest",
+      "webRequestBlocking",
+      "activeTab",
+      "<all_urls>"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "icons": {
+      "48": "icon48.png",
+      "128": "icon128.png"
+    },
+    "action": {
+  "default_popup": "popup.html"
+}
+  }
