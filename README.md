@@ -10,4 +10,4 @@ A lightweight browser extension that blocks annoying ads by intercepting request
 ## Installation
 1. Clone or download this repository:
    ```bash
-  
+  waiting
